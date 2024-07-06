@@ -2,8 +2,8 @@ import os
 import re
 from bs4 import BeautifulSoup
 
-input_folder = '/home/kali/Desktop/webscrap'
-output_folder = '/home/kali/Desktop/clean'
+input_folder = 'PUT YOUR INPUT FOLDER HERE'
+output_folder = 'PUT YOUR OUTPUT FOLDER HERE'
 
 if not os.path.exists(output_folder):
     os.makedirs(output_folder)
